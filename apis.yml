@@ -1,7 +1,28 @@
 aid: sagence-ai
-name: Sagence-ai
-description: Sagence-ai is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sagence-ai.png
+name: Sagence AI
+description: >-
+  Sagence AI is a semiconductor company building analog in-memory computing
+  hardware for AI inference. Its "analog inference machine" combines deep
+  subthreshold computing with multi-level flash memory cells to run large AI
+  models at a fraction of the power and cost of conventional digital GPUs,
+  targeting datacenter and edge workloads such as generative AI, recommendation
+  systems, real-time defect detection, and video security. Backed by Khosla
+  Ventures, the company positions its technology against offerings like Nvidia's
+  B200, claiming large gains in performance-per-watt and cost efficiency for AI
+  inference. Sagence AI is a hardware/silicon company and does not currently
+  publish a developer API, SDK, or public developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/sagence-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Inference
+- Semiconductors
+- Analog Computing
+- Hardware
+- Machine Learning
+- Edge AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.sagence-ai.com/
+- type: About
+  url: https://www.sagence-ai.com/about-us/
+- type: Technology
+  url: https://www.sagence-ai.com/technology-overview/
+- type: Solutions
+  url: https://www.sagence-ai.com/solutions-overview/
+- type: Blog
+  url: https://www.sagence-ai.com/resources/
+- type: Support
+  url: https://www.sagence-ai.com/contact-us/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/sagence-ai/
+- type: YouTube
+  url: https://www.youtube.com/@sagenceai
+- type: DomainSecurity
+  url: security/sagence-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

@@ -1,0 +1,30 @@
+# Front Door AI Index — sagence-ai — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: sagence-ai
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.sagence-ai.com
+  final_host: www.sagence-ai.com
+  ownership: own
+  owner: sagence-ai
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 43
+  host_score: 43
+  density: 71.31
+  words: 603
+  tiers:
+    agentic: 6
+    core: 36
+    model: 1
+  ambiguous: 1
+  top_terms:
+    AI: 32
+    inference: 6
+    generative ai: 3
+    LLMs: 1
+    Llama: 1
+    intelligence: 1
